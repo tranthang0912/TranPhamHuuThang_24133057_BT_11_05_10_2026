@@ -1,0 +1,15 @@
+target/
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+tmp/
+
+# Local credentials: commit the .example files instead.
+/src/main/resources/application.properties
+/database/configure-sa.sql
+.env
+.env.*
+!.env.example
+/README.md

@@ -1,0 +1,8 @@
+/* Optional: copy to configure-sa.sql and replace CHANGE_ME with a strong local password.
+   Run from a SQL Server account with sysadmin permission.
+   Never commit configure-sa.sql. */
+USE master;
+GO
+ALTER LOGIN sa ENABLE;
+ALTER LOGIN sa WITH PASSWORD = 'CHANGE_ME';
+GO

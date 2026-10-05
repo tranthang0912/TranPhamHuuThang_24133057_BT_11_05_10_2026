@@ -1,0 +1,14 @@
+# Copy this file to application.properties and fill in your local credentials.
+# Never commit application.properties.
+db.url=jdbc:sqlserver://localhost:1433;databaseName=VideoManagement_24133057;encrypt=true;trustServerCertificate=true
+db.username=sa
+db.password=CHANGE_ME
+db.driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+# Optional email settings. Leave username/password empty to disable email.
+# For Gmail, enter an App Password, not your normal account password.
+smtp.host=smtp.gmail.com
+smtp.port=587
+smtp.username=
+smtp.password=
+smtp.from=

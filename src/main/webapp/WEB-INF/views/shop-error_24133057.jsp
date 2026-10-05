@@ -1,0 +1,3 @@
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html lang="vi"><head><title>Kiểm tra lại thao tác | Hữu Thắng</title></head><body><main class="container commerce-page"><section class="commerce-empty"><h1>Chưa thể thực hiện thao tác</h1><p role="alert"><c:out value="${error}"/></p><div class="commerce-error-actions"><a class="button primary" href="<c:url value='/cart'/>">Về giỏ hàng</a><a class="button outline" href="<c:url value='/orders'/>">Xem đơn hàng</a><a class="button outline" href="<c:url value='/shop'/>">Cửa hàng video</a></div></section></main></body></html>

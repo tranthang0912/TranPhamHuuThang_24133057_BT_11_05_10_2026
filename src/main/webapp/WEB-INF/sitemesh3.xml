@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <dispatch-mode>include</dispatch-mode>
+    <mapping path="/assets/*" exclude="true"/>
+    <mapping path="/admin" decorator="admin_24133057.jsp"/>
+    <mapping path="/admin/*" decorator="admin_24133057.jsp"/>
+    <mapping path="/*" decorator="user_24133057.jsp"/>
+</sitemesh>
